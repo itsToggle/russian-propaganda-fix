@@ -47,7 +47,7 @@ def fuckRT(x,proxies):
             except:
                 works = False
                 proxies.remove(this_proxy)
-                print(str(x)+': '+'<Proxy ['+str(this_proxy) +']> [timeout]')
+                #print(str(x)+': '+'<Proxy ['+str(this_proxy) +']> [timeout]')
         else:
             print(str(x)+': [no working proxy]')
             print(str(x)+': [getting new proxies]')
